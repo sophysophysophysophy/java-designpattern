@@ -6,7 +6,8 @@ import com.parkgaram.dp.templatecreator.fw.Item;
 public class Application {
 
 	public static void main(String[] args) {
-		
+
+//		item creator : item을 생성하는 주체
 		Creator creator = new DefaultItemCreator();
 
 		Item item1 = creator.create("나무칼");
