@@ -1,7 +1,5 @@
 package adapter;
 
-
-
 public class AdapterImpl implements Adapter {
 
 	@Override

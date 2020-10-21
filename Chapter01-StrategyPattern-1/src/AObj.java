@@ -1,4 +1,6 @@
 
+
+// delegate
 public class AObj {
 
 	Ainterface ainterface;
