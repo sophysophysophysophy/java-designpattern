@@ -15,9 +15,10 @@ public class VisitorA implements Visitor {
 	
 	@Override
 	public void visit(Visitable visitable) {
-		if(visitable instanceof VisitableA){
+
+		if(visitable instanceof VisitableA) {
 			number+=((VisitableA) visitable).numberOfMember;
-		}else {
+		} else {
 			//...
 		}
 	}

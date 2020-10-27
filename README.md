@@ -17,6 +17,62 @@
 - `template method pattern`이 사용된다.
 - **구조와 구현의 분리**가 이루어진다. (framework)
 
+##### 5.  Singleton Pattern
+- 객체 : 속성과 기능을 갖춘 것
+- 클래스 : 속성과 기능을 정의한 것 
+- 인스턴스 : 속성과 기능을 가진 것 중 실제하는 것 
+- 생성자를 private 으로 지정하여 생성 못하게 막음
+- getInstance, static, spring framework 등 이용하여 singleton 객체 생성 
+
+##### 6. Prototype Pattern 
+- 생산 비용이 높은 인스턴스를 복사하여 쉽게 생성할 수 있도록 하는 패턴 
+- 생산 비용이 높은 경우 
+    - 종류가 많아서 클래스로 정리되지 않는 경우
+    - 클래스로부터 인스턴스 생성이 어려운 경우 
+- clone method을 사용할 수 있음
+- 복사
+    - Deep Copy : 주소값이 아닌 실제 값 복사 (clone) 
+        - 자바의 기본 자료형 + String : copy 했을 때 자동 깊은 복사 
+        - 참조 자료형 : copy할 때 명시적으로 깊은 복사 해주어야 함 ( DeepShallow package 참) 
+    - Shallow Copy : 주소값 참조 복사 
+    
+##### 7. Builder Pattern 
+- 복잡한 단계가 있는 인스턴스 생성 과정 단순화 
+1. 코드로 설명한 builder pattern : 객체를 대신 생성해주는 builder, builderDirector  이용
+2. lombok에서 사용하는 builder pattern : 메소드 체이닝 등 
+등
+
+##### 8. Abstract Factory Pattern 
+- 서로 관련이 있는 객체들을 통째로 묶어서 팩토리 클래스로 만들고, 이들 팩토리를 조건에 따라 생성하도록 다시 팩토리를 만들어서 객체를 생성하는 패턴
+- 추상 팩토리 패턴은 팩토리 메서드 패턴을 좀 더 캡슐화한 방식이라고 볼 수 있음
+
+##### 9. Brige Pattern
+- 기능 부분과 구현 부분 분리 
+- 구현부에서 추상층을 분리하여 각자 독립적으로 변형, 확장 가능. 즉 기능과 구현이 두 개를 별도의 클래스로 존
+
+##### 10. Composite Pattern
+- 트리 구조 
+- 파일 시스템에서 많이 사용 
+
+##### 11. Decorator Pattern
+- 동적으로 책임을 추가 
+- 탈부착 가능한 책임 정의할 때 사용
+- Decorator 객체는 Component와 Concrete Decorator 동일시 해주는 역
+- Decorator가 추가된 책임 가지고 있
+
+##### 12. Visitor Pattern
+- 객체에서 처리를 분리하여 사용
+- 객체 외부 타 객에서 처리를 진행 
+
+##### 13. Chain of Responsibility Pattern
+- 다양한 처리 방식을 유연하게 처리
+- Handler (abstract class) 상속 ChildHandler 구현
+
+
+
+
+
+
 
 
 
