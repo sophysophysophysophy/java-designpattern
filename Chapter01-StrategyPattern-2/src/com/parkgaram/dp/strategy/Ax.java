@@ -10,5 +10,4 @@ public class Ax implements Weapon {
 		System.out.println("도끼 공격");
 		return 0;
 	}
-
 }
