@@ -10,7 +10,7 @@ public class Circle extends Shape {
 	public Circle() {
 		a = new A();
 	}
-	
+
 	public void setA(A a) {
 		this.a = a;
 	}
@@ -42,6 +42,8 @@ public class Circle extends Shape {
 		this.r = r;
 	}
 
+
+//	cloneable interface method
 	public Shape copy() throws CloneNotSupportedException {
 		
 		Circle shape = (Circle) clone();

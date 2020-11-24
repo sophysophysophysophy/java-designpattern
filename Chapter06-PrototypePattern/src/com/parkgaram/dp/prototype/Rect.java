@@ -1,6 +1,6 @@
 package com.parkgaram.dp.prototype;
 
-public class Rect extends Shape {
+public class Rect extends Shape{
 
 	public int x1, y1, x2, y2;
 

@@ -10,7 +10,7 @@ public class Main {
 		picture= new Folder("picture"),
 		doc= new Folder("doc"),
 		usr= new Folder("usr");
-		
+
 		File 
 		track1 = new File("track1"),
 		track2 = new File("track2"),
@@ -33,7 +33,8 @@ public class Main {
 			
 			show(root);
 	}
-	
+
+//	recursive
 	private static void show(Component component){
 		System.out.println(component.getClass().getName()+"|"+component.getName());
 		if(component instanceof Folder){

@@ -1,6 +1,6 @@
 package com.parkgaram.dp.prototype;
 
-public abstract class Shape implements Cloneable {
+public abstract class Shape implements Cloneable{
 
 	private String id;
 
