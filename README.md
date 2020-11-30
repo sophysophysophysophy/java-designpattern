@@ -64,11 +64,27 @@
 - 객체에서 처리를 분리하여 사용
 - 객체 외부 타 객에서 처리를 진행 
 
-##### 13. Chain of Responsibility Pattern
+##### 13. Chain of Responsibility Pattern (책임 사슬 패턴)
 - 다양한 처리 방식을 유연하게 처리
 - Handler (abstract class) 상속 ChildHandler 구현
+- 하나의 객체만 책임을 지는 것이 아니라 여러 객체가 책임을 나눠질 수 있음.
+- 동적으로 구현 가능 : 추상 메소드를 익명 클래스로 동적 생성 가능
 
-
+##### 14. Facade Pattern (퍼사드 패턴)
+- 복잡한 과정을 간단하게 제공
+- 독립된 프로세스를 제공하는 시스템들(서브시스템)을 패키지로 묶어(퍼사드 시스템) 일련의 과정으로 엮어 놓은 패턴  
+    (하나의 시스템에서 하나의 프로세스를 제공)
+- 서브시스템은 퍼사드시스템에서만 접근 가능 
+    
+##### 15. Observer Pattern (옵저버 패턴)
+- 이벤트 처리를 외부에서 할 수 있는 패턴 
+- ex) 안드로이드의 onClick event - onClickListener(observer interface) 
+- ex) onClick event가 발생했을 때,  자신을 인자로 리스너 인터페이스를 호출 후 익명 객체 생성하여 이벤트 처리
+- java.util의 Observer class, Observable class 상속하여 구현 가능 (onClick method, addObserver abstract method, setChanged method, notifyObservers method)
+    interface가 아니라서 상속받아 사용해야하는 어려움있음. (확장성 낮음) -> 내부 인터페이 재선언하여 사용 
+    
+##### 16. 
+    
 
 
 
@@ -88,8 +104,7 @@
     - 코드의 재사용이 목적
 - 다형성
     - 같은 형태이지만 다른 기능을 하는 것
-    - 오버라이딩은 이와 관련된 기능임
-
+    - 오버라이딩은 이와 관련된 기능
 
 
 

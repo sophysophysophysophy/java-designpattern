@@ -2,6 +2,9 @@ package com.parkgaram.observer;
 
 import java.util.Vector;
 
+
+// java.util의 Observable class를 재선언하여 내부적으로 변경하여 사용
+// object 변수 -> generic 변수로 타입 변경하여 더 모던하게 사용 가능하도록 변경
 public class Observable<T> {
 	
     private boolean changed = false;
