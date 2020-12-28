@@ -60,7 +60,7 @@
 - Decorator 객체는 Component와 Concrete Decorator 동일시 해주는 역
 - Decorator가 추가된 책임 가지고 있
 
-##### 12. Visitor Pattern (double dispatcher ! ) 
+##### 12. Visitor Pattern (double dispatcher ! : DOM parser, SAM parser ) 
 - 객체에서 처리를 분리하여 사용
 - 객체 외부 타 객에서 처리를 진행 
 
