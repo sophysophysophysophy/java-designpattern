@@ -83,7 +83,10 @@
 - java.util의 Observer class, Observable class 상속하여 구현 가능 (onClick method, addObserver abstract method, setChanged method, notifyObservers method)
     interface가 아니라서 상속받아 사용해야하는 어려움있음. (확장성 낮음) -> 내부 인터페이 재선언하여 사용 
     
-##### 16. 
+##### 16. Mediator Pattern (중재자 패턴)
+- 복잡한 관계를 간단한 관계로 구현 
+- M:N to 1:1 
+- 다양한 관계가 존재할 때, 중간에 중재자를 두어 모든 연결을 중재자(매개체) 통하여 맺게 하는 패턴
     
 
 
