@@ -12,7 +12,7 @@ public abstract class Mediator {
 	}
 	
 	public boolean addColleague(Colleague colleague){
-		if(colleagues !=null)
+		if(colleagues != null)
 			return colleagues.add(colleague);
 		else
 			return false;

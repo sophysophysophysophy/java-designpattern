@@ -1,7 +1,6 @@
 package com.parkgaram.mediator;
 
-import com.parkgaram.mediator.contract.Colleague;
-import com.parkgaram.mediator.contract.Mediator;
+import com.parkgaram.mediator.contract.*;
 
 public class Application {
 

@@ -1,7 +1,7 @@
 package com.parkgaram.mediator;
 
+import com.parkgaram.mediator.contract.*;
 import com.parkgaram.mediator.contract.Colleague;
-import com.parkgaram.mediator.contract.Mediator;
 
 public class ChatMediator extends Mediator {
 

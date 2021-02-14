@@ -83,9 +83,12 @@
 - java.util의 Observer class, Observable class 상속하여 구현 가능 (onClick method, addObserver abstract method, setChanged method, notifyObservers method)
     interface가 아니라서 상속받아 사용해야하는 어려움있음. (확장성 낮음) -> 내부 인터페이 재선언하여 사용 
     
-##### 16. 
-    
+##### 16. Mediator Pattern (중재자 패턴)
+- M : N to 1 : 1 (관계)
 
+##### 16. State Pattern (상태 패턴)
+- 객체, 상태, 패턴
+- 상태 패턴을 통해 상태를 객체로 나타내고 행동을 구현한다.
 
 
 

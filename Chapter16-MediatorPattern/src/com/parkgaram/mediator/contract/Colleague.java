@@ -1,5 +1,6 @@
 package com.parkgaram.mediator.contract;
 
+
 public abstract class Colleague {
 	
 	private Mediator mediator;
